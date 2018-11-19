@@ -1,32 +1,31 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Udacity FEND Classic Arcade Game
 
-## Project Overview: Stage 1
+This is my Udacity Nano-degree project to re-create a restaurant review app that is responsive, accessible, and works offline.
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+## Getting Started
 
-### Specification
+Step 1.  Git clone the repository.
+Step 2.  If you don't have python installed, [install python](https://www.python.org/downloads/).
+Step 3.  Verify your python installation by running the command "python -V" from your command line.  You should get a response with your version of Python, if not, doublecheck step 2.
+Step 4.  Navigate to the root directory of where you cloned the repository.
+Step 5.  Run the python command "python -m SimpleHTTPServer 8000" to start HTTP Server.
+Step 6.  Launch web browser and nagivate to "http://localhost:8000"
+Step 7.  Enjoy!
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+## Using the Restaurant Review App
 
-### What do I do from here?
+You will start on the home page which has a map of restaurants in New York City.  You can Filter your results with the "Filter Results" drop down.  You can filter by Neighborhood or by Cuisines.
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+A list of the restaurants will appear at the bottom of the page.  You can click on the "View Details" button to see more details for any of the restaurants.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+Once in a restaurant's details page you will see the restaurant hours, address, a map of where the restaurant is located, as well as reviews for that restaurant.
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+At any time, once you are in the restaurant details page you can follow the breadcumbs at the top of the page you can navigate back to the home page.
 
-## Leaflet.js and Mapbox:
+### Prerequisites
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+A Javascript compatible web browser and a web server of your choice.
 
-### Note about ES6
+## Authors
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
+* **Mark Shavers** - *Initial work* - [shavez00](https://github.com/shavez00)
