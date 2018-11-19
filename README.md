@@ -5,12 +5,12 @@ This is my Udacity Nano-degree project to re-create a restaurant review app that
 ## Getting Started
 
 Step 1.  Git clone the repository</br>
-Step 2.  If you don't have python installed, [install python](https://www.python.org/downloads/).
-Step 3.  Verify your python installation by running the command "python -V" from your command line.  You should get a response with your version of Python, if not, doublecheck step 2.
-Step 4.  Navigate to the root directory of where you cloned the repository.
-Step 5.  Run the python command "python -m SimpleHTTPServer 8000" to start HTTP Server.
-Step 6.  Launch web browser and nagivate to "http://localhost:8000"
-Step 7.  Enjoy!
+Step 2.  If you don't have python installed, [install python](https://www.python.org/downloads/).</br>
+Step 3.  Verify your python installation by running the command "python -V" from your command line.  You should get a response with your version of Python, if not, doublecheck step 2.</br>
+Step 4.  Navigate to the root directory of where you cloned the repository.</br>
+Step 5.  Run the python command "python -m SimpleHTTPServer 8000" to start HTTP Server.</br>
+Step 6.  Launch web browser and nagivate to "http://localhost:8000"</br>
+Step 7.  Enjoy!</br>
 
 ## Using the Restaurant Review App
 
