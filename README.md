@@ -4,7 +4,7 @@ This is my Udacity Nano-degree project to re-create a restaurant review app that
 
 ## Getting Started
 
-Step 1.  Git clone the repository.
+Step 1.  Git clone the repository
 Step 2.  If you don't have python installed, [install python](https://www.python.org/downloads/).
 Step 3.  Verify your python installation by running the command "python -V" from your command line.  You should get a response with your version of Python, if not, doublecheck step 2.
 Step 4.  Navigate to the root directory of where you cloned the repository.
