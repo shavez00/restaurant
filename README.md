@@ -1,4 +1,4 @@
-# Udacity FEND Classic Arcade Game
+# Udacity FEND Restaurant Review App
 
 This is my Udacity Nano-degree project to re-create a restaurant review app that is responsive, accessible, and works offline.
 
