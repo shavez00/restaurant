@@ -148,7 +148,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  image.alt = "Restaurant Image";
+  image.alt = restaurant.name + " Image ";
   li.append(image);
 
   const name = document.createElement('h1');
@@ -187,6 +187,9 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 };
 
+/**
+  * Launch service worker for being able to server content when offline from the cache
+  */
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/sw.js').then(function(registration) {
